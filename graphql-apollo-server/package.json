@@ -1,0 +1,23 @@
+{
+	"dependencies": {
+		"@apollo/subgraph": "^2.4.2",
+		"apollo-server": "^3.12.0",
+		"apollo-server-express": "^3.12.0",
+		"fs": "^0.0.1-security",
+		"graphql": "^16.6.0",
+		"mysql2": "^3.2.4",
+		"nodemon": "^2.0.22",
+		"sequelize": "^6.31.1",
+		"sequelize-cli": "^6.6.0"
+	},
+	"name": "graphql",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon index.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"description": ""
+}

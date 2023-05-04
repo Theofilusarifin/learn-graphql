@@ -1,0 +1,4 @@
+extend type Query {
+	user(id: Int!): User
+	level(id: Int!): Level
+}
